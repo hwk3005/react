@@ -1,0 +1,21 @@
+리엑트
+ : 프론트엔드
+ : JavaScript로 만든 사용자 인터페이스(UI)를 만들기 위한 라이브러리)
+
+1. 폴더 생성: r0704
+2. Terminal입력: npx create-react-app app01 → y입력
+3. 명령프롬프트: C:\workspace\react\r0704\app01> npm start
+4. browser 열림: http://localhost:3000
+
+
+★ 리엑트 문법
+
+- 모든 것은 중괄호 안에 넣기
+- 열림닫힘 태그 한번에 쓰기 <br/>
+- class → className 
+
+Node.js + Express
+Django (Python)
+Spring (Java)
+Flask
+FastAPI 등
