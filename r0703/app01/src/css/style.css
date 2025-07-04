@@ -1,0 +1,10 @@
+*{margin:0; padding:0; }
+
+h2 {
+    margin: 30px auto;
+    font-size: 30px;
+}
+label {
+    margin-right: 15px;
+    font-size: 15px;
+}

@@ -1,21 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import './css/style.css';
 
 function App() {
-  
+  const btn = () => {
+    alert('로그인 진행합니다.');
+  }
+
   // 화살표 함수 (js 6버전에서 나옴)
   // const btn1 = () => {
   //   alert('경고창')
   // }
 
-  const btn1 = function(){
-    alert('안녕하세요.');
-  }
-
   return (
     <div className="App">
-      <h2>안녕하세요.</h2>
-      <button onClick={btn1}>버튼</button>
+      <h2>로그인</h2>
+      <form>
+        <label>아이디</label>
+        <input type='text' name='id'/><br/>
+        <label>패스워드</label>
+        <input type='pw' name='pw'/><br/><br/>
+      </form>
+      <button>로그인</button>
     </div>
   );
 }
