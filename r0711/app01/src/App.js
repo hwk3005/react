@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import b1 from './images/b1.jpg';
+// import b1 from './images/b1.jpg';
 import './App.css';
 import './css/Style.css';
 import React,{useState} from 'react';
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <img src='/images/b1.jpg'/>
       <h2 className='top_title'>영화리스트</h2>
       {movieList}
 
