@@ -1,6 +1,6 @@
 리엑트
  : 프론트엔드
- : JavaScript로 만든 사용자 인터페이스(UI)를 만들기 위한 라이브러리)
+ : JavaScript로 만든 사용자 인터페이스(UI)를 만들기 위한 라이브러리
 
 1. 폴더 생성: r0704
 2. Terminal입력: npx create-react-app app01 → y입력
